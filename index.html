@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <title>My portfolio</title>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation bar-->
+    <nav>
+        <div class="container mx-auto flex gap-8 justify-center items-center mt-2 bg-black text-white w-80 h-6 rounded-full">
+            <a class="font-light text-sm hover:scale-110 tracking-wide" href="#section-about">about</a>
+            <a class="font-light text-sm hover:scale-110 tracking-wide" href="#section-projects">projects</a>
+            <a class="font-light text-sm hover:scale-110 tracking-wide" href="">services</a>
+            <a class="font-light text-sm hover:scale-110 tracking-wide" href="#section-footer">contact</a>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <div>
+        <div class="container mx-auto flex flex-col items-center justify-center">
+            <div class="w-4/5 md:hidden mt-10">
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/coding-project-1884980-1597918.png?f=webp" alt="">
+            </div>
+            <div class="flex justify-around xl:w-2/5 mt-28 lg:mt-44 mb-14">
+                <h1 class="text-5xl lg:text-6xl font-nasalization tracking-tight m:tracking-wider text-center" id="title-hero">Hello, I'm Jose. <br>The Web developer</h1>
+            </div>
+            <p class="font-light text-l lg:text-xl tracking-wide w-3/5 text-center mb-14" id="prueba1">Freelance web designer and software developer passionate about crafting engaging digital experiences</p>
+            <div class="flex gap-10 mb-14">
+                <button class="btn-black">Check it out</button>
+                <button class="btn-black">See services</button>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="animate-bounce w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>  
+            </div>
+        </div>
+    </div>
+    <!-- Main -->
+    <main>
+        <!-- A bit about me -->
+        <div class="container mx-auto py-24" id="section-about">
+            <h2 class="text-center text-3xl font-nasalization pb-10 lg:pb-24 opacity-0" id="title-about">A little bit about me</h2>
+            <div class="flex flex-col lg:flex-row justify-center  gap-x-24 gap-y-10 items-center">
+                <div class="flex justify-end relative">
+                    <div class="bg-blue-500 w-72 h-72 rounded-full" id="img-display">
+                        <img class="w-full h-full rounded-full object-cover" id="photo-description" src="" alt="">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 flex flex-col justify-center items-center">
+                    <div class="flex gap-3 pb-6 items-center">
+                        <button class="bg-white w-10 h-10 rounded-md shadow-md p-1 hover:scale-125 node">
+                            <img src="https://www.svgrepo.com/show/50205/dog-paw.svg" alt="">
+                        </button>
+                        <button class="bg-white w-10 h-10 rounded-md shadow-md p-1 hover:scale-125 node">
+                            <img src="https://www.svgrepo.com/show/94674/books-stack-of-three.svg" alt="">
+                        </button>
+                        <button class="bg-white w-10 h-10 rounded-md shadow-md p-1 hover:scale-125 node">
+                            <img src="https://www.svgrepo.com/show/480656/game.svg" alt="">
+                        </button>
+                        <button class="bg-white w-10 h-10 rounded-md shadow-md p-1 hover:scale-125 node">
+                            <img src="https://icons.veryicon.com/png/o/system/dan_system/manager-2.png" alt="">
+                        </button>
+                        <button class="bg-white w-10 h-10 rounded-md shadow-md p-1 hover:scale-125 node">
+                            <img src="https://www.svgrepo.com/show/1699/web-development.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <h2 class="text-2xl font-nasalization pb-6 text-center" id="about-subtitle">Dog Lover</h2>
+                        <p class="w-2/3 font-light text-justify" id="about-description">Meet Cleo, my beloved companion whom I welcomed into my life at the age of three in 2014. Together, we've formed an unbreakable bond, and my deep affection for her has inspired a heartfelt goal – to establish a sanctuary for lost and abandoned dogs, providing them with the love and care they deserve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personal projects -->
+        <div class="container mx-auto py-10 lg:my-24" id="section-projects">
+            <h2 class="text-center text-3xl font-nasalization pb-16 opacity-0" id="title-projects">Some of my personal projects</h2>
+            
+            <!-- Fila 1 -->
+            <div class="flex gap-5 flex-col lg:flex-row justify-center items-center mb-10 px-5">
+                <!-- Card 1 -->
+                <div class="flex flex-col m:flex-row w-full md:w-100 shrink-0 p-5 lg:p-3 gap-2 justify-center items-center rounded-xl hover:bg-gray-300" id="project-card">
+                    <div class="flex gap-5 flex-col lg:flex-row">
+                        <div class="w-full lg:w-1/2">
+                            <img src="/images/joseaustralia.png" alt="No hay">
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <h3 class="font-bold text-lg pb-3 text-center lg:text-left">Jose en Australia</h3>
+                            <p class="font-light text-sm lg:text-r">I started this YouTube channel to make applying for a Work and Holiday visa in Australia a breeze! Join me on my journey Down Under and let's turn the visa process into a smooth and stress-free adventure. 🌏✈️ #VisaTips #DownUnderDreams</p>
+                        </div>
+                    </div>
+                    <button class="btn-black mt-5" id="button-project-jose">Check it out!</button>
+                </div>
+                <!-- Card 2 -->
+                <div class="flex flex-col m:flex-row w-full md:w-100 shrink-0 p-5 lg:p-3 gap-2 justify-center items-center rounded-xl hover:bg-gray-300">
+                    <div class="flex gap-5 flex-col lg:flex-row">
+                        <div class="w-full lg:w-1/2">
+                            <img src="/images/pokebattle.png" alt="No hay">
+                        </div>
+                        <div class="w-full lg:w-1/2">
+                            <h3 class="font-bold text-lg pb-3">Pokemon Battle</h3>
+                            <p class="font-light text-sm lg:text-r">Here's my second mini-game creation—a playful Pokémon battle! Pick your Pokémon, challenge the AI, and embark on a fun-filled digital adventure. 🎮💥 Let the battles begin! #GameDev #PokémonFun</p>
+                        </div>
+                    </div>
+                    <button class="btn-black mt-5" id="button-project-pokemon">Check it out!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Using Technologies -->
+        <div class="container mx-auto pt-16">
+
+            
+            <h2 class="text-center text-3xl font-nasalization pb-10 opacity-0" id="title-technologies">Using the following technologies</h2>
+
+            <!-- Fila 1 -->
+            <div class="flex justify-center items-center py-5 lg:py-10 gap-12 lg:gap-16">
+
+                <!-- HTML -->
+                <div class="group flex flex-col items-center h-28" id="tech1">
+                    <img class="w-16 lg:w-24 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1024px-HTML5_Badge.svg.png" alt="">
+                    <p class="font-light text-base lg:text-xl pt-1 hidden group-hover:block">HTML</p>
+                </div>
+                <!-- CSS -->
+                <div class="group flex flex-col items-center h-28">
+                    <img class="w-16 lg:w-24 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817" alt="">
+                    <p class="font-light text-base lg:text-xl pt-1 hidden group-hover:block">CSS</p>
+                </div>
+                <!-- JS -->
+                <div class="group flex flex-col items-center h-28">
+                    <img class="w-16 lg:w-24 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902" alt="">
+                    <p class="font-light text-base lg:text-xl pt-1 hidden group-hover:block">Javascript</p>
+                </div>
+
+            </div>
+
+            <!-- Fila 2 -->
+            <div class="flex justify-center items-center pb-10 gap-x-12 lg:gap-16 flex-wrap">
+
+                <!-- GIT -->
+                <div class="group flex flex-col items-center h-28">
+                    <img class="w-16 lg:w-24 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png" alt="">
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">GIT</p>
+                </div>
+                <!-- GITHUB -->
+                <div class="group flex flex-col items-center h-28">
+                    <img class="w-16 lg:w-24 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png" alt="">
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">Github</p>
+                </div>
+                <!-- Tailwind -->
+                <div class="group flex flex-col justify-between items-center h-28">
+                    <img class="w-16 lg:w-24 py-5 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png" alt="">
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">Tailwind</p>
+                </div> 
+                <!-- Figma -->
+                <div class="group flex flex-col items-center h-28">
+                    <img class="w-10 lg:w-16 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" alt="">
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">Figma</p>
+                </div>                
+            </div>
+
+            <!-- Learning Technologies -->
+            <h2 class="text-center text-3xl font-nasalization pb-16 opacity-0" id="title-learning">Technologies I am currently learning</h2>
+
+            <!-- Fila -->
+            <div class="flex justify-center items-center pb-10 gap-16 flex-wrap">
+
+                <!-- React -->
+                <div class="group flex flex-col justify-center items-center h-28" id="react">
+                    <img class="w-24 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" alt="">
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">React</p>
+                </div>
+                <!-- Node -->
+                <div class="group flex flex-col justify-center items-center h-28">
+                    <img class="w-32 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png" alt="">
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">Node.js</p>
+                </div>
+                <!-- Icon 1 -->
+                <div class="group flex flex-col justify-center items-center h-28">
+                    <div class="w-32 h-16">
+                        <img class="w-32 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/1200px-MongoDB_Logo.svg.png" alt="">
+                    </div>
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">MongoDB</p>
+                </div>     
+                <!-- Express -->
+                <div class="group flex flex-col justify-center items-center h-28">
+                    <div class="w-32 h-16">
+                        <img class="w-32 group-hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="">
+                    </div>
+                    <p class="font-light text-xl pt-1 hidden group-hover:block">express.js</p>
+                </div> 
+            </div>
+        </div>
+
+        
+    </main>
+    <!-- Final -->
+    <footer class="bg-black" id="section-footer">
+        <div>
+            ss
+        </div>
+        <div class="container mx-auto flex flex-col justify-center items-center py-16 px-10 lg:px-0 lg:w-1/2">
+            <h2 class=" text-white text-center text-3xl lg:text-5xl font-nasalization tracking-wider">
+                This isn’t the conclusion, but the start of an incredible journey together! 
+            </h2>
+            <p class="text-white font-light text-lg lg:text-2xl tracking-wider py-10 text-center">
+                I am actively seeking new opportunities, so feel free to reach out anytime, whether you have a query or just want to say hello. 
+            </p>
+            <button class="btn-blue">Say hello!</button>
+        </div>
+        <div class="w-full border-t border-t-white py-4 px-6 flex justify-between items-center gap-5">
+            <div class="text-white">
+                <p class="font-bold">Wanna contact me?</p>
+                <p class="font-light">E-mail: helloworld@joseenaustralia.com</p>
+                <p class="font-light">Ph: 0459 744 635</p>
+                <p class="font-light">Check my social media!</p>
+            </div>
+
+            <p class="text-white text-sm font-light tracking-wide hidden lg:block">© 2023 Designed by Jose en Australia</p>
+
+            <div class="flex flex-col lg:flex-row gap-3 items-center justify-end">
+                <a href="https://www.instagram.com/joseenaustralia/">
+                    <img class="w-8 lg:w-10 shrink-0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="">
+                </a>
+                <a class="bg-white rounded-lg" href="https://github.com/jorec806/">
+                    <img class="w-8 lg:w-10 shrink-0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/@JoseenAustralia">
+                    <img class="w-8 lg:w-10 shrink-0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="">
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
